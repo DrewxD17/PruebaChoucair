@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-10-21T22:16:29.154391" rpa="false" schemaversion="5">
+<suite id="s1" name="Prueba" source="C:\Users\andre\Documents\pythonProject1\.venv\prueba.robot">
+<test id="s1-t1" name="Login with correct Username and Password" line="5">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:29.419271" level="INFO">Opening browser 'chrome' to base url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'.</msg>
+<arg>url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-21T22:16:29.418934" elapsed="3.104061"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-10-21T22:16:32.523295" elapsed="0.030508"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-21T22:16:36.554725" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-21T22:16:32.554061" elapsed="4.001207"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:36.556551" level="INFO">Typing text 'admin' into text field '//input[@name='username']'.</msg>
+<arg>//input[@name='username']</arg>
+<arg>admin</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:36.555718" elapsed="0.142009"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:36.698222" level="INFO">Typing text 'admin123' into text field '//input[@name='password']'.</msg>
+<arg>//input[@name='password']</arg>
+<arg>admin123</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:36.697960" elapsed="0.118693"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:36.817114" level="INFO">Clicking button '//button[@type='submit']'.</msg>
+<arg>//button[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:36.816878" elapsed="0.882231"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-21T22:16:41.700058" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-21T22:16:37.699351" elapsed="4.001124"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:41.701615" level="INFO">Clicking element '//span[.//text()='Recruitment']'.</msg>
+<arg>//span[.//text()='Recruitment']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:41.701000" elapsed="0.602033"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-21T22:16:45.304144" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-21T22:16:42.303448" elapsed="3.001193"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:45.305759" level="INFO">Clicking button '//button[.//text() = ' Add ']'.</msg>
+<arg>//button[.//text() = ' Add ']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:45.305147" elapsed="0.377275"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-21T22:16:48.683801" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-21T22:16:45.682840" elapsed="3.001352"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:48.685062" level="INFO">Typing text 'Marc' into text field '//input[@name='firstName']'.</msg>
+<arg>//input[@name='firstName']</arg>
+<arg>Marc</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:48.684555" elapsed="0.208317"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:48.893718" level="INFO">Typing text 'MacKlagan' into text field '//input[@name='middleName']'.</msg>
+<arg>//input[@name='middleName']</arg>
+<arg>MacKlagan</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:48.893270" elapsed="0.206470"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:49.100605" level="INFO">Typing text 'MacKgalan' into text field '//input[@name='lastName']'.</msg>
+<arg>//input[@name='lastName']</arg>
+<arg>MacKgalan</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:49.100154" elapsed="0.235012"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:49.336051" level="INFO">Clicking element '//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']'.</msg>
+<arg>//i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:49.335578" elapsed="0.066595"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-21T22:16:52.403716" level="INFO">Slept 3 seconds.</msg>
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-21T22:16:49.402592" elapsed="3.001659"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:52.405350" level="INFO">Typing text 'test@test.com' into text field '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[3]/div/div[1]/div/div[2]/input'.</msg>
+<arg>//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[3]/div/div[1]/div/div[2]/input</arg>
+<arg>test@test.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:52.404761" elapsed="0.251083"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:52.656711" level="INFO">Typing text '123456789' into text field '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[3]/div/div[2]/div/div[2]/input'.</msg>
+<arg>//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[3]/div/div[2]/div/div[2]/input</arg>
+<arg>123456789</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:52.656245" elapsed="0.241336"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:52.898433" level="INFO">Typing text 'TEster QA LEAD' into text field '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[5]/div/div[1]/div/div[2]/input'.</msg>
+<arg>//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[5]/div/div[1]/div/div[2]/input</arg>
+<arg>TEster QA LEAD</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:52.897985" elapsed="0.190144"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:53.089031" level="INFO">Typing text 'is a god tester' into text field '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[6]/div/div/div/div[2]/textarea'.</msg>
+<arg>//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[6]/div/div/div/div[2]/textarea</arg>
+<arg>is a god tester</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:53.088550" elapsed="0.244959"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:53.334579" level="INFO">Clicking element '//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[7]/div/div/div/div[2]/div/label/span/i'.</msg>
+<arg>//*[@id="app"]/div[1]/div[2]/div[2]/div/div/form/div[7]/div/div/div/div[2]/div/label/span/i</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:53.334098" elapsed="0.094747"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-10-21T22:16:53.430467" level="INFO">Clicking button '//button[@type='submit']'.</msg>
+<arg>//button[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-10-21T22:16:53.429790" elapsed="0.153701"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2024-10-21T22:16:57.584983" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2024-10-21T22:16:53.583853" elapsed="4.001807"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2024-10-21T22:16:57.586248" elapsed="2.270554"/>
+</kw>
+<status status="PASS" start="2024-10-21T22:16:29.418084" elapsed="30.439433"/>
+</test>
+<status status="PASS" start="2024-10-21T22:16:29.169094" elapsed="30.690188"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Prueba">Prueba</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

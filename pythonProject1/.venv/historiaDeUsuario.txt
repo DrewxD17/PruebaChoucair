@@ -1,0 +1,7 @@
+Como administrador de recursos humanos
+Quiero que se puedan registrar nuevos postulantes para analista de pruebas
+
+criterios de aceptacion
+1. que se completen los datos personales del postulado generales.
+2.Debe poder iniciar session desde la prueba automatizada.
+3. el formulario luego de guardarse debe ser mostrado en una lista.
